@@ -26,7 +26,6 @@ ul {
 }
 
 .box-lists {
-    
     display: flex;
     flex-wrap: wrap;
 }
@@ -39,16 +38,16 @@ ul {
     background-color: #ffd700;
 }
 
-.box:first-child,
-.box:nth-child(5),
-.box:last-child   {
+.boxs:first-child,
+.boxs:nth-child(5),
+.boxs:last-child   {
     background-color: #ffa500;
 }
 
-.box:nth-child(3n) {
+.boxs:nth-child(3n) {
     margin-right: 0;
 }
 
-.box:last-child(-n + 3) {
+.boxs:nth-child(n + 7) {
     margin-bottom: 0;
 }
